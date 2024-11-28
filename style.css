@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    background-color: #ccc;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar a:hover {
+    background-color: #555;
+  }
+  
+  .main-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    width: 25%;
+    height: calc(100vh - 50px); /* Menyesuaikan dengan tinggi layar */
+    box-sizing: border-box;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .education {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .education-item {
+    background-color: #0066cc;
+    color: white;
+    border: 5px solid #0088f8;
+    padding: 20px;
+    width: 80px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .story {
+    text-align: justify;
+  }
+
+footer {
+    background-color: #555;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
